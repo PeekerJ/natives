@@ -11,12 +11,13 @@ void _SET_VEHICLE_SHADOW_EFFECT(Vehicle vehicle, int p1, int p2);
 
 ```
 Adds some kind of shadow to the vehicle.
+Uses range from 0 - 255
 -1 disables the effect.
-DISABLE_*
+OLD NAME: DISABLE_VEHCILE_DYNAMIC_AMBIENT_SCALES
 ```
 
 ## Parameters
-* **vehicle**: 
-* **p1**: 
-* **p2**: 
+* **vehicle**: Target Vehicle
+* **NaturalAmbientScale**: 0 - 255 (-1 to disable)
+* **ArtificialAmbientScale**: 0 - 255 (-1 to disable)
 
